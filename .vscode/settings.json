@@ -1,0 +1,10 @@
+{
+    "cmake.configureArgs": [
+        "-G", "Visual Studio 17 2022",
+        "-A", "x64"
+    ],
+    "cmake.buildDirectory": "${workspaceFolder}/build",
+    "cmake.installPrefix": "${workspaceFolder}/install",
+    "C_Cpp.default.cppStandard": "c++20",
+    "C_Cpp.default.compilerPath": "cl.exe"
+}

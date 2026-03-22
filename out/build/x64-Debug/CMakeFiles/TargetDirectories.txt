@@ -1,0 +1,14 @@
+C:/Users/Lenovo/Desktop/Software/Programming Projects/cpp stuff/ProcessGuard/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/Users/Lenovo/Desktop/Software/Programming Projects/cpp stuff/ProcessGuard/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Lenovo/Desktop/Software/Programming Projects/cpp stuff/ProcessGuard/out/build/x64-Debug/common/CMakeFiles/edit_cache.dir
+C:/Users/Lenovo/Desktop/Software/Programming Projects/cpp stuff/ProcessGuard/out/build/x64-Debug/common/CMakeFiles/rebuild_cache.dir
+C:/Users/Lenovo/Desktop/Software/Programming Projects/cpp stuff/ProcessGuard/out/build/x64-Debug/target/CMakeFiles/target.dir
+C:/Users/Lenovo/Desktop/Software/Programming Projects/cpp stuff/ProcessGuard/out/build/x64-Debug/target/CMakeFiles/edit_cache.dir
+C:/Users/Lenovo/Desktop/Software/Programming Projects/cpp stuff/ProcessGuard/out/build/x64-Debug/target/CMakeFiles/rebuild_cache.dir
+C:/Users/Lenovo/Desktop/Software/Programming Projects/cpp stuff/ProcessGuard/out/build/x64-Debug/guardian/CMakeFiles/guardian.dir
+C:/Users/Lenovo/Desktop/Software/Programming Projects/cpp stuff/ProcessGuard/out/build/x64-Debug/guardian/CMakeFiles/edit_cache.dir
+C:/Users/Lenovo/Desktop/Software/Programming Projects/cpp stuff/ProcessGuard/out/build/x64-Debug/guardian/CMakeFiles/rebuild_cache.dir
+C:/Users/Lenovo/Desktop/Software/Programming Projects/cpp stuff/ProcessGuard/out/build/x64-Debug/attacker/CMakeFiles/attacker.dir
+C:/Users/Lenovo/Desktop/Software/Programming Projects/cpp stuff/ProcessGuard/out/build/x64-Debug/attacker/CMakeFiles/payload.dir
+C:/Users/Lenovo/Desktop/Software/Programming Projects/cpp stuff/ProcessGuard/out/build/x64-Debug/attacker/CMakeFiles/edit_cache.dir
+C:/Users/Lenovo/Desktop/Software/Programming Projects/cpp stuff/ProcessGuard/out/build/x64-Debug/attacker/CMakeFiles/rebuild_cache.dir

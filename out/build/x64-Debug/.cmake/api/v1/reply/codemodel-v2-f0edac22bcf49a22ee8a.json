@@ -1,0 +1,148 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "common",
+					"jsonFile" : "directory-common-Debug-df8a23303754f0cfc2e1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "common"
+				},
+				{
+					"build" : "target",
+					"jsonFile" : "directory-target-Debug-e901859d5ec20bc7f8f7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "target",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "guardian",
+					"jsonFile" : "directory-guardian-Debug-8bc94c252a7a84fd090a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "guardian",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "attacker",
+					"jsonFile" : "directory-attacker-Debug-c1ec927fa591bc4f03ec.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "attacker",
+					"targetIndexes" : 
+					[
+						0,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					],
+					"name" : "ProcessGuard",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 4,
+					"id" : "attacker::@731735f49d72c8ac797f",
+					"jsonFile" : "target-attacker-Debug-6863cad3c4e896205518.json",
+					"name" : "attacker",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "guardian::@84e5f0ab3c326b3e5f34",
+					"jsonFile" : "target-guardian-Debug-e05cb037bfd35ac94f59.json",
+					"name" : "guardian",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "payload::@731735f49d72c8ac797f",
+					"jsonFile" : "target-payload-Debug-5b39ff56b87a00864b7b.json",
+					"name" : "payload",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "target::@943056f259ad83a42bdb",
+					"jsonFile" : "target-target-Debug-4079d46bac3923177e51.json",
+					"name" : "target",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Lenovo/Desktop/Software/Programming Projects/cpp stuff/ProcessGuard/out/build/x64-Debug",
+		"source" : "C:/Users/Lenovo/Desktop/Software/Programming Projects/cpp stuff/ProcessGuard"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

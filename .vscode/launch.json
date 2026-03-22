@@ -1,0 +1,25 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch target",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/Debug/target.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "console": "newExternalWindow"
+        },
+        {
+            "name": "Launch guardian (Admin required)",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/Debug/guardian.exe",
+            "args": ["target.exe", "1000"],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "console": "newExternalWindow"
+        }
+    ]
+}
