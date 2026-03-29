@@ -123,13 +123,13 @@ With the guardian running, execute any of the following from a third terminal:
 .\build\Release\attacker.exe <mode> [target-image-name]
 ```
 
-| Mode | Technique | Detected | Detection mechanism | Latency |
+| Mode | Technique | Detection mechanism | Latency |
 |---|---|---|---|---|
-| `terminate` | `TerminateProcess` | ✅ | ETW — handle acquisition | Near-immediate |
-| `inject` | `CreateRemoteThread(LoadLibraryW)` | ✅ | `ModuleWatchdog` | ~1s |
-| `patch` | `WriteProcessMemory` into `.text` | ✅ | `MemoryIntegrityMonitor` | ~1s |
-| `suspend` | `SuspendThread` on all threads | ✅ | `HeartbeatMonitor` | ~2s |
-| `handle-leak` | Hold `PROCESS_ALL_ACCESS` handle open | ✅ | ETW — handle acquisition | Near-immediate |
+| `terminate` | `TerminateProcess` | ETW — handle acquisition | Near-immediate |
+| `inject` | `CreateRemoteThread(LoadLibraryW)` | `ModuleWatchdog` | ~1s |
+| `patch` | `WriteProcessMemory` into `.text` | `MemoryIntegrityMonitor` | ~1s |
+| `suspend` | `SuspendThread` on all threads | `HeartbeatMonitor` | ~2s |
+| `handle-leak` | Hold `PROCESS_ALL_ACCESS` handle open | ETW — handle acquisition | Near-immediate |
 
 The attacker binary prints annotated step-by-step output describing what each technique does, so it can be used as a live walkthrough alongside the guardian's alerts.
 
